@@ -1,0 +1,184 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    background: #5D0000;
+    color: #070606;
+    font: 15px/19px Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font: Arial, Helvetica, sans-serif;
+    padding: 20px 160px 0;
+}
+
+h3 {
+    font: Arial, Helvetica, sans-serif;
+    padding: 10px 20px 0;
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#FixedBunner img {
+    width: 11%;
+    top: 350px;
+    left: 3px;
+    position: fixed;
+}
+
+#main {
+    width: 800px;
+    height: auto;
+    margin: 5px auto;
+    background: #fff;
+    border: 2px groove #ba868d;
+}
+    
+/*----TOP PANEL----*/
+
+    #topPanel {
+        width: auto;
+        height: 100px;
+    }
+
+        #car1 {
+            height: inherit;
+            float: left;
+        }
+
+        #logo {
+            height: inherit;
+            padding: 0 80px;
+            float: left;
+        }
+
+        #phone {
+            color: #ff0000;
+            font: 22px/30px bold "Trebuchet MS", Arial, Helvetica, sans-serif;
+            float: right;
+            padding: 0 10px 0 0;
+        }
+
+/*----HEADER PANEL----*/
+
+    #headerPanel {
+        width: auto;
+        height: 30px;
+        background: url(BGmenuPanel.jpg) 0 0 repeat-x #ff0000;
+        background-position: 0PX center;
+        color: #ffffff;
+        font: 18px/20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    }
+
+        #mainMenu {
+            position: relative;
+            margin: 0 20px 0;
+            padding: 5px 100px 0;
+        }
+
+            #mainMenu li {
+                float: left;
+            }
+
+                #mainMenu li a {
+                    padding: 0 90px;
+                    text-decoration: none;
+                    color: #ffffff;
+                    padding: 0 20px 0;
+                }
+
+                #mainMenu li a:hover {
+                    text-shadow: 4px 4px 7px #ffffff;
+                    color: #d9cbcb;
+                }
+
+/*----CONTENT PANEL----*/
+
+    #contentPanel {
+        width: auto;
+        height: 600px;
+        background: url(backgr2.jpg) 0 0 repeat #fff;
+        padding: 0;
+    }
+
+        #leftPanel {
+            width: 610px;
+            float: left;
+            padding: 0 0;
+            margin: 0 0;
+        }
+
+            #lc100{
+                padding: 0 20%;
+            }
+
+        #rightPanel {
+            width: 185px;
+            float: left;
+            padding: 0;
+            margin: 0;
+        }
+
+            #secondMenu {
+                float: right;
+            }
+
+                #secondMenu li {
+                    width: 185px;
+                    height: 22px;
+                    border-bottom: 1px dashed #AECCCA;
+                }
+                
+                #secondMenu li.endrow {
+                    width: 185px;
+                    height: 22px;
+                    border-bottom: none;
+                }
+
+                    #secondMenu li a {
+                        width: 170px;
+                        height: 22px;
+                        display: block;
+                        background: url(bullet_normal.gif) 2px 7px no-repeat #fff;
+                        color: #274947;
+                        line-height: 22px;
+                        text-decoration: none;
+                        padding: 0 0 0 15px;
+                        font: bold;
+                    }
+
+                    #secondMenu li a:hover {
+                        background: url(bullet_hover.gif) 2px 7px no-repeat #fff;
+                        color: #213332;
+                        line-height: 22px;
+                        text-decoration: none;
+                        padding: 0 0 0 15px;
+                    }
+ 
+/*----FOOTER PANEL----*/
+
+    #footerPanel {
+        width: auto;
+        height: 95px;
+        border-top: 1px solid #ba868d;
+    }
+
+        #footerLabel {
+            float: left;
+            margin: 0 auto;
+        }
+
+            #copyright {
+                padding: 0 90px;
+                margin: 0 0;
+                float:left;
+                font: 22px/30px bolder "Trebuchet MS", Arial, Helvetica, sans-serif;
+            }
+
+        #car2 {
+            float: left;
+            height: 94px;
+            margin: 0 0 0 40px;
+        }
